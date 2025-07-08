@@ -1,0 +1,36 @@
+:root {
+    --background: #3674B5;
+    --section: #578FCA;
+    --primary: #F5F0CD;
+    --accent: #FADA7A;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: var(--section);
+    width: 800px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+h1, h2{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section h2 {
+    color: var(--accent)
+}
+
+a {
+    color: var(--accent);
+}
